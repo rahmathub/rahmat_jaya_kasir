@@ -1,0 +1,295 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*  */
+/*  */
+/*  */
+/* Di atas css Reset */
+
+body{
+    background-color: #eaeaea;
+	font: 16px/19px arial, sans-serif;
+    background-image: url(swirl_pattern.webp);
+    color: #2a3132; /* warna tulisan semuanyaa */
+}
+
+
+/* .papan_jualan_pulsa{
+	background-image: url(pulsa.png);
+	background-size: auto;
+	background-repeat: no-repeat;
+	margin: auto auto auto 77% ;
+	height: 880px;
+	width: 370px;
+	
+	
+	margin-left: 905px;
+} */
+
+.container{
+	width: 900px;
+	/* margin-top: -880px; */
+	margin: auto;
+	background-color: #fff;
+}
+
+
+
+.blackbar{
+	padding: 5px;
+	padding-bottom: 10px;
+}
+
+.blackbar{
+	background-color: #2a3132;
+}
+
+/* .sub_bar .judul{
+	font-size: 25px;
+	font-weight: bold;
+	color: #eaeaea;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+} */
+
+.sub_bar{
+	margin-left: 0%;
+}
+
+.sub_bar ul li{
+	display: inline-block;
+	margin-right: 0px;
+	font-size: 17px;
+	color: #eaeaea;
+	margin-bottom: 0px;
+}
+
+.sub_bar ul li h1{
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+.sub_bar a{
+	text-decoration: none;
+	color: #eaeaea;
+}
+
+.sub_bar .bar_login{
+	margin-left: 400px;
+	display: inline-block;
+}
+
+/* warna tombol untuk masuk admin */
+.sub_bar a:hover{ 
+	background-color:  #336b87;
+    color: #eaeaea;
+}
+
+.fototoko{
+    height: 350px;
+    background-image: url(4.jpg);
+    background-size: cover;
+    background-position:0px;
+    border-bottom: 5px solid  #336b87;
+    border-top: 5px solid  #336b87;
+}
+
+.fototoko ul li {
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 310px;
+	margin-left: 10px;
+	padding-right: 0px;
+}
+
+.fototoko ul li a{
+	text-decoration: none;
+	color: #eaeaea;
+	padding: 5px;
+}
+
+/* warna tombol menu toko */
+.fototoko a:hover{
+	background-color:  #336b87;
+    color: white;
+}
+
+.content{
+	padding: 20px;
+}
+
+.content h2{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.content .penulis{
+	font-size: 13px;
+	margin-top: 8px;
+	text-align: justify;
+}
+
+.content a{
+	text-decoration: none;
+}
+
+.rakjualan{
+	background-color: #90afc5;
+	margin: auto;
+	padding-left: 35px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.judularea p{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.rakjualan .baris4{
+	display: inline-block;
+	padding: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+
+
+/* Gambar jualan */
+.baris4 .zoomable{
+	width: 150px;
+	height: 150px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+/* tulisan jualan barang */
+.baris4 p{
+	font-size: 10px;
+}
+
+.baris4 .judulproduk{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.baris4 .diskon{
+	font-weight: bold;
+	font-size: 15px;
+	color: red;
+}
+
+.baris4 .jadinya{
+	font-weight: 100;
+	font-size: 15px;
+	color: blue;
+}
+
+/* tombol jualan */
+.baris4 a:hover{
+	background-color: #336b87;
+	color: #eaeaea;
+}
+
+/* menu toko saat melihat selengkapnya */
+.rakjualan .menuselengkapnya {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.menuselengkapnya a{
+	/* text-decoration: none; */
+	padding: 5px;
+	color: #2a3132;
+	font-weight: bold;
+}
+
+.menuselengkapnya a:hover{
+	background-color: #336b87;
+	color: #eaeaea;
+}
+
+
+.tentangkami{
+	background-color: #90afc5;
+	padding: 10px;
+}
+
+.tentangkami h2{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+
+/* bagian bawah footer */
+.footer{
+	background-color: #2a3132;
+	padding: 10px;
+}
+
+.footer .copy{
+	color: #eaeaea;
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+
